@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HoopUp Portfolio</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.0.9/css/glightbox.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
+        <header class="shadow-md">
+            <div class="container flex justify-between items-center">
+                <div class="flex items-center">
+                    <img src="assets/images/icon_logo.png" alt="HoopUp Logo"
+                        class="h-12 mr-4">
+                    <h1 class="text-2xl font-bold">Portfolio</h1>
+                </div>
+            </div>
+        </header>
+
+        <main class="flex-grow flex flex-col justify-center p-6">
+            <section
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6">
+                <!-- Videor -->
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/videos/scenario_1.mp4" class="glightbox"
+                        data-type="video"
+                        data-title="Join Game using Filter Function">
+                        <div class="relative">
+                            <video controls
+                                class="w-full h-56 object-contain mb-4 rounded">
+                                <source src="assets/videos/scenario_1.mp4"
+                                    type="video/mp4">
+                                Din webbläsare stödjer inte videouppspelning.
+                            </video>
+                            <div class="absolute inset-0"></div>
+                        </div>
+                    </a>
+                    <h4 class="text-lg font-bold">Join Game using Filter
+                        Function</h4>
+                    <p class="text-md mt-2 text-center">User scenario based on
+                        use case - join game by using the filter function</p>
+                </div>
+
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/videos/Scenario_3.mp4" class="glightbox"
+                        data-type="video"
+                        data-title="Creating a Game via the Map">
+                        <div class="relative">
+                            <video controls
+                                class="w-full h-56 object-contain mb-4 rounded">
+                                <source src="assets/videos/Scenario_3.mp4"
+                                    type="video/mp4">
+                                Din webbläsare stödjer inte videouppspelning.
+                            </video>
+                            <div class="absolute inset-0"></div>
+                        </div>
+                    </a>
+                    <h4 class="text-lg font-bold">Creating a Game via the
+                        Map</h4>
+                    <p class="text-md mt-2 text-center">User scenario based on
+                        use case - creating a game via the map</p>
+                </div>
+
+                <!-- Bilder -->
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/images/Start_Page.jpg" class="glightbox"
+                        data-title="Start Page">
+                        <img src="assets/images/Start_Page.jpg" alt="Start Page"
+                            class="w-full h-56 object-cover mb-4 rounded">
+                    </a>
+                    <h4 class="text-lg font-bold">Start Page</h4>
+                </div>
+
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/images/Create_Account.jpg" class="glightbox"
+                        data-title="Create Account">
+                        <img src="assets/images/Create_Account.jpg"
+                            alt="Create Account"
+                            class="w-full h-56 object-cover mb-4 rounded">
+                    </a>
+                    <h4 class="text-lg font-bold">Create Account</h4>
+                </div>
+
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/images/Login_Page.jpg" class="glightbox"
+                        data-title="Login Page">
+                        <img src="assets/images/Login_Page.jpg" alt="Login Page"
+                            class="w-full h-56 object-cover mb-4 rounded">
+                    </a>
+                    <h4 class="text-lg font-bold">Login Page</h4>
+                </div>
+
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/images/Home_Page.jpg" class="glightbox"
+                        data-title="Home Page">
+                        <img src="assets/images/Home_Page.jpg" alt="Home Page"
+                            class="w-full h-56 object-cover mb-4 rounded">
+                    </a>
+                    <h4 class="text-lg font-bold">Home Page</h4>
+                </div>
+
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/images/Confirm_Game_Page.jpg"
+                        class="glightbox"
+                        data-title="Example from Create Game Wizard (Last Page)">
+                        <img src="assets/images/Confirm_Game_Page.jpg"
+                            alt="Example from Create Game Wizard (Last Page)"
+                            class="w-full h-56 object-cover mb-4 rounded">
+                    </a>
+                    <h4 class="text-lg font-bold">Example from Create Game
+                        Wizard (Last Page)</h4>
+                </div>
+
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/images/Map_Page.jpg" class="glightbox"
+                        data-title="Map Page">
+                        <img src="assets/images/Map_Page.jpg" alt="Map Page"
+                            class="w-full h-56 object-cover mb-4 rounded">
+                    </a>
+                    <h4 class="text-lg font-bold">Map Page</h4>
+                </div>
+
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/images/My_Booking_Page.jpg"
+                        class="glightbox" data-title="My Bookings Page">
+                        <img src="assets/images/My_Booking_Page.jpg"
+                            alt="My Bookings Page"
+                            class="w-full h-56 object-cover mb-4 rounded">
+                    </a>
+                    <h4 class="text-lg font-bold">My Bookings Page</h4>
+                </div>
+
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/images/Event_Page.jpg" class="glightbox"
+                        data-title="Event Page">
+                        <img src="assets/images/Event_Page.jpg" alt="Event Page"
+                            class="w-full h-56 object-cover mb-4 rounded">
+                    </a>
+                    <h4 class="text-lg font-bold">Event Page</h4>
+                </div>
+
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/images/Example_Chat.jpg" class="glightbox"
+                        data-title="Example Chat">
+                        <img src="assets/images/Example_Chat.jpg"
+                            alt="Example Chat"
+                            class="w-full h-56 object-cover mb-4 rounded">
+                    </a>
+                    <h4 class="text-lg font-bold">Example Chat</h4>
+                </div>
+
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/images/Event_Page_With_Popup_Map.jpg"
+                        class="glightbox"
+                        data-title="Event Page with Popup Map">
+                        <img src="assets/images/Event_Page_With_Popup_Map.jpg"
+                            alt="Event Page with Popup Map"
+                            class="w-full h-56 object-cover mb-4 rounded">
+                    </a>
+                    <h4 class="text-lg font-bold">Event Page with Popup Map</h4>
+                </div>
+
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/images/Error_Message_Example.jpg"
+                        class="glightbox" data-title="Popup Message Example">
+                        <img src="assets/images/Error_Message_Example.jpg"
+                            alt="Popup Message Example"
+                            class="w-full h-56 object-cover mb-4 rounded">
+                    </a>
+                    <h4 class="text-lg font-bold">Popup Message Example</h4>
+                </div>
+
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/images/Profile_Page.jpg" class="glightbox"
+                        data-title="Profile Page">
+                        <img src="assets/images/Profile_Page.jpg"
+                            alt="Profile Page"
+                            class="w-full h-56 object-cover mb-4 rounded">
+                    </a>
+                    <h4 class="text-lg font-bold">Profile Page</h4>
+                </div>
+
+                <div style="background-color: #f4f1e0;"
+                    class="rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 p-4 flex flex-col items-center">
+                    <a href="assets/images/Edit_Profile_Page.jpg"
+                        class="glightbox" data-title="Edit Profile Page">
+                        <img src="assets/images/Edit_Profile_Page.jpg"
+                            alt="Edit Profile Page"
+                            class="w-full h-56 object-cover mb-4 rounded">
+                    </a>
+                    <h4 class="text-lg font-bold">Edit Profile Page</h4>
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="py-4 px-6 text-center flex items-center justify-center">
+            <p>&copy; 2024 Portfolio for the app HoopUp. All rights
+                reserved.</p>
+        </footer>
+
+        <script>
+            
+// Hämta alla video länkar
+var videoLinks = document.querySelectorAll('a.glightbox[data-type="video"]');
+
+// Loopa igenom varje video länk
+for (var i = 0; i < videoLinks.length; i++) {
+    // Hämta föräldraelementet till <a>-elementet
+    var parent = videoLinks[i].parentNode;
+
+    // Hämta det sista barnet till föräldraelementet (som borde vara <p>-taggen med beskrivningen)
+    var description = parent.lastElementChild;
+
+    // Ändra data-title attributet till texten i beskrivningen
+    videoLinks[i].setAttribute('data-title', description.textContent);
+}
+    </script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.0.9/js/glightbox.min.js"></script>
+        <script>
+        const lightbox = GLightbox({
+            selector: '.glightbox'
+        });
+    </script>
+    </body>
+</html>

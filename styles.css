@@ -1,0 +1,76 @@
+body {
+    line-height: 1.6;
+}
+
+header {
+    background: #191b1d;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #CB5817;
+    padding: 1.5rem 0 0.5rem 1.5rem;
+}
+
+main {
+    font-family: 'Rubik', sans-serif;
+    background: #191b1d;
+}
+
+footer {
+    background: #191b1d;
+    color: #CB5817;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+h4, p{
+    color: #CB5817;
+    text-align: center;
+}
+
+
+
+a:hover img, a:hover video {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+p {
+    max-width: 500px;
+}
+
+.video-container, .image-container {
+    transition: all 0.3s ease;
+}
+
+.video-container:hover, .image-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.gslide-description.description-bottom{
+    display: flex;
+    color: #CB5817 !important;
+    background-color: black !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.gslide-description .gslide-title {
+    color: #CB5817 !important;
+    margin-bottom: 0px;
+}
+
+div.rounded-lg p {
+    display: none;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
