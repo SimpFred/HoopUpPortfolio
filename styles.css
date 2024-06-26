@@ -22,7 +22,10 @@ footer {
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: xx-large !important;
 }
 
 h4, p{
